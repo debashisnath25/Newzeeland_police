@@ -70,7 +70,7 @@
 					  <td class="center">Marketing,CXO,Customer Support</td>
 					  
 					  <td class="center">
-					  <span class="status active">Active</span>
+					  <a href="edit_schedules.php"><span class="status active">View</span></a>
 					<div class="pull-right">
               <div class="btn-group">
                 <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span class="dots"></span> </button>
