@@ -30,8 +30,8 @@
 		<li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-cubes"></i>Company<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level text-center">
             <li><a href="listing_employee.php"  style="padding-left:10px;">Employee</a></li>
-            <li><a href="report.php"  style="padding-left:10px;">Information</a></li>
-            <li><a href="report.php"  style="padding-left:10px;">Integration</a></li>
+            <li><a href="company.php"  style="padding-left:10px;">Information</a></li>
+            <li><a href="integration.php"  style="padding-left:10px;">Integration</a></li>
           </ul>
           <!-- /.nav-second-level --> 
         </li>
