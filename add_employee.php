@@ -15,61 +15,6 @@
 	  -webkit-appearance: none; 
 	  margin: 0; 
 	}
-	.switch {
-	  position: relative;
-	  display: inline-block;
-	  width: 60px;
-	  height: 34px;
-	}
-
-	.switch input {display:none;}
-
-	.slider {
-	  position: absolute;
-	  cursor: pointer;
-	  top: 0;
-	  left: 0;
-	  right: 0;
-	  bottom: 0;
-	  background-color: #ccc;
-	  -webkit-transition: .4s;
-	  transition: .4s;
-	}
-
-	.slider:before {
-	  position: absolute;
-	  content: "";
-	  height: 26px;
-	  width: 26px;
-	  left: 4px;
-	  bottom: 4px;
-	  background-color: white;
-	  -webkit-transition: .4s;
-	  transition: .4s;
-	}
-
-	input:checked + .slider {
-	  background-color: #228B22;
-	}
-
-	input:focus + .slider {
-	  box-shadow: 0 0 1px #228B22;
-	}
-
-	input:checked + .slider:before {
-	  -webkit-transform: translateX(26px);
-	  -ms-transform: translateX(26px);
-	  transform: translateX(26px);
-	}
-
-	/* Rounded sliders */
-	.slider.round {
-	  border-radius: 34px;
-	}
-
-	.slider.round:before {
-	  border-radius: 50%;
-	}
 </style>
 </head>
 
@@ -464,11 +409,13 @@
 									 <div class="col-lg-2 text-left" style="margin-top:8px;">
 										<span>Engagement</span>
 									 </div>
-									 <div class="col-lg-4">
-										<label class="switch">
-										  <input type="checkbox" checked>
-										  <span class="slider round"></span>
-										</label>
+									 <div class="col-lg-1">
+										<div class="switch">
+										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-1"></label>
+										</div>
+									 </div>
+									 <div class="col-lg-3">
 										<span> Included in future surveys</span>
 									 </div>
 									 <div class="col-lg-2 text-left" style="margin-top:8px;">
@@ -476,7 +423,7 @@
 									 </div>
 									 <div class="col-lg-4">
 										<select class="form-control">
-										  <option selected disabled>Choose Department</option>
+										  <option selected disabled>Choose Timezone</option>
 										</select>
 									 </div>
 								  </div>
@@ -488,7 +435,7 @@
 									 </div>
 									 <div class="col-lg-4">
 										<select class="form-control">
-										  <option selected disabled>Choose Office</option>
+										  <option selected disabled>Choose Language</option>
 										</select>
 									 </div>
 								  </div>
