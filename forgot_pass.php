@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Forgot Password | TeamGraph</title>
+<title>Forgot Password | NZPolice</title>
 <?php include("metalinks.php");?>
 </head>
 
@@ -39,6 +39,12 @@
     </div>
   </div>
 </div>
-<?php include("footer.php");?>
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Custom Theme JavaScript --> 
+<script src="js/raphael.js"></script> 
+<script src="js/morris.min.js"></script> 
+<script src="js/adminnine.js"></script> 
 </body>
 </html>

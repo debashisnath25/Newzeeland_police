@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Add Employee | TeamGraph</title>
+<title>Add Employee | NZPolice</title>
 <?php include("metalinks.php");?>
 </head>
 
@@ -24,7 +24,7 @@
     <div class="row">
     <?php include("header.php");?>
     <ol class="breadcrumb">
-      <li><a href="dashboard.php">TeamGraph</a></li>
+      <li><a href="dashboard.php">NZPolice</a></li>
       <li class="active">Add Employee</li>
     </ol>
     </div>
