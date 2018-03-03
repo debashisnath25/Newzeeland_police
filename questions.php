@@ -10,6 +10,27 @@
 <?php include("metalinks.php");?>
 <link href="css/dataTables.bootstrap.css" rel="stylesheet">
 <link href="css/dataTables.responsive.css" rel="stylesheet">
+<style>
+.modal-dialog {
+ 
+
+ 
+          height:400px;
+ 
+        }
+ 
+.modal-content {
+ 
+    /* 80% of window height */
+ 
+    height:400px;
+ 
+
+ 
+}       
+ 
+
+ </style>
 </head>
 
 <body>
@@ -36,9 +57,10 @@
             <ul class="nav nav-tabs">
               <li class="active"><a href="#home" data-toggle="tab" aria-expanded="false">Driver Questions</a> </li>
               <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Open-ended Questions</a> </li>
+			    <li class="pull-right" data-toggle="modal" data-target="#myModal"><button type="button" class="btn btn-success btn-circle btn-lg"><i class="fa fa-plus"></i> </button></li>
             
             </ul>
-            
+     
             <!-- Tab panes -->
             <div class="tab-content">
               <div class="tab-pane fade padding active in" id="home">
@@ -254,7 +276,7 @@ Question</h1>
   </div>
 </div>
 
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:100%;">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -279,7 +301,64 @@ Question</h1>
               </div>
               <!-- /.modal-dialog --> 
             </div>
+			 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:100%;">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel3" style="text-align:center;">Add Question</h4>
+                  </div> 
+                  <div class="modal-body" style="height:200px;">
+					<div class="col-md-8">
+						<h6 style="color:#cccccc;">Question</h6>
+						<div class="form-group">
+                    
+                    <input class="form-control" style="background:#cccccc;" placeholder="E.g i feel trusted to do my job">
+                  </div>
+					</div>
+					<div class ="col-md-4">
+						<h6 style="color:#cccccc;">Frequency</h6>
+						<select class="form-control">
+						  <option>Always</option>
+						  <option>Once</option>
+						  <option>Weekly</option>
+						  <option>Monthly</option>
+						  <option>Quarterly</option>
+						</select>
+					</div>
+					<div class="col-md-12" id="bondho">
+					<h6 style="color:#cccccc;">Localization</h6>
+					<h4 style="font-size:12px;" id="kaj_suru"><u>+ Add Traselation</u></h4>
+					</div>
 
+					<div class="col-md-12" id="khulbe" style="display:none;">
+					<h6 style="color:#cccccc;">Localization</h6>
+					<h4 style="font-size:12px;" id="kaj_sesh"><u>- Hide Traselation</u></h4>
+						<div class="col-md-8">
+						<h6 style="color:#cccccc;">Question</h6>
+						<div class="form-group">
+                    
+                    <input class="form-control" style="background:#cccccc;" placeholder="E.g i feel trusted to do my job">
+                  </div>
+					</div>
+					<div class ="col-md-4">
+						<h6 style="color:#cccccc;">Frequency</h6>
+						<select class="form-control">
+						  <option>Always</option>
+						  <option>Once</option>
+						  <option>Weekly</option>
+						  <option>Monthly</option>
+						  <option>Quarterly</option>
+						</select>
+					</div>
+					
+					</div>
+                </div>
+                <!-- /.modal-content --> 
+              </div>
+              <!-- /.modal-dialog --> 
+            </div>
+			</div>
 			 <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" >
               <div class="modal-dialog">
                 <div class="modal-content">
@@ -341,5 +420,19 @@ Question</h1>
             });
     });
     </script>
+<script>
+	$("#kaj_suru").click(function () {
+        $("#bondho").css("display","none")
+        $("#khulbe").css("display","block")
+        // $("#").show();   
+    });
+
+    $("#kaj_sesh").click(function () {
+        $("#bondho").css("display","block")
+        $("#khulbe").css("display","none")
+        // $("#").show();   
+    });
+
+</script>
 </body>
 </html>
