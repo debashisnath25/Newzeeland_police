@@ -35,6 +35,14 @@
           </ul>
           <!-- /.nav-second-level --> 
         </li>
+		<li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-bar-chart-o fa-fw"></i>Survey<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li> <a href="schedules.php"  style="padding-left:10px;">Schedules</a> </li>
+            <li> <a href="questions.php"  style="padding-left:10px;">Questions</a> </li>
+            
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>
         <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-bar-chart-o fa-fw"></i>Account<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li> <a href="manage_employee.php"  style="padding-left:10px;">Manage Employees</a> </li>
