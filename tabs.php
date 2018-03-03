@@ -78,7 +78,6 @@ body {font-family: "Lato", sans-serif;}
       <li><a href="dashboard.php">NZPolice</a></li>
       <li class="active">Overview</li>
     </ol>
-    </div>
 	<div class="panel panel-default">
 	<div class="panel-body no-padding">
     <ul class="nav nav-tabs">
@@ -822,53 +821,10 @@ body {font-family: "Lato", sans-serif;}
     </div>
     </div>
 	</div>
-
     <!-- /.row --> 
   </div>
-  <!-- /#page-wrapper --> 
-  
-</div>
+  <!-- /#page-wrapper -->
 <!-- /#wrapper -->
-<div class="modal fade" tabindex="-1" role="dialog" id="editorofile">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Edit profile</h4>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label>First Name</label>
-            <input type="text" class="form-control" placeholder="First name">
-          </div>
-          <div class="form-group">
-            <label>Last Name</label>
-            <input type="text" class="form-control" placeholder="Last name">
-          </div>
-          <div class="form-group">
-            <label>Birthdate</label>
-            <input type="text" class="form-control" placeholder="Birthdate">
-          </div>
-          <div class="form-group">
-            <label>Phone number</label>
-            <input type="number" class="form-control" placeholder="Phone number">
-          </div>
-          <div class="form-group">
-            <label>Email address</label>
-            <input type="email" class="form-control" placeholder="Email">
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save</button>
-      </div>
-    </div>
-    <!-- /.modal-content --> 
-  </div>
-  <!-- /.modal-dialog --> 
-</div>
 <!-- /.modal -->
 
 
