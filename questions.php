@@ -23,8 +23,8 @@
     <div class="row">
       <?php include("header.php");?>
     <ol class="breadcrumb">
-      <li><a href="dashboard.php">TeamGraph</a></li>
-      <li class="active">Manage Employee</li>
+      <li><a href="dashboard.php">Employee Survey</a></li>
+      <li class="active">Questions</li>
     </ol>
     </div>
 	<div class="row" style="margin-top:10px;">
@@ -65,36 +65,177 @@
 
       <!-- /.col-lg-4 --> 
     </div> 
+	
+	<div class="row">
+
+      
+      <div class="col-xs-12 col-md-12">
+        <h1 class="page-header small">Engagement</h1>
+        <p class="page-subtitle small">How likely is it you would recommend clickrstop software solutions private limited as a place to work?</p>
+        <div class="panel-group " id="accordian2" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default active">
+            <div class="panel-heading" role="tab" id="headingOne2">
+              <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2" class="collapsed" style="font-size:12px;"> How likely is it you would recommend clickrstop software solutions private limited as a place to work?<span class="fa fa-angle-down pull-right"></span> </a> </h4>
+            </div>
+            <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" aria-expanded="false" style="height: 0px;">
+              <div class="panel-body">
+             		<div class="col-md-10">
+					<h6 style="color:#cccccc;">Question</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class ="col-md-2">
+					<h6 style="color:#cccccc;">Driver</h6>
+					<p>Engagement</p>
+				</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo2">
+              <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2" style="font-size:12px;">  If you were offered the same job at another organisation, how likely is it you would stay at clickrstop software solutions private limited?<span class="fa fa-angle-down pull-right"></span> </a> </h4>
+            </div>
+            <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
+              <div class="panel-body">
+               		<div class="col-md-10">
+					<h6 style="color:#cccccc;">Question</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class ="col-md-2">
+					<h6 style="color:#cccccc;">Driver</h6>
+					<p>Engagement</p>
+				</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree2">
+              <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2" style="font-size:12px;"> If you were offered the same job at another organisation, how likely is it you would stay at clickrstop software solutions private limited? <span class="fa fa-angle-down pull-right"></span> </a> </h4>
+            </div>
+            <div id="collapseThree2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
+              <div class="panel-body">
+               		<div class="col-md-10">
+					<h6 style="color:#cccccc;">Question</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class ="col-md-2">
+					<h6 style="color:#cccccc;">Driver</h6>
+					<p>Engagement</p>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
               </div>
               <div class="tab-pane fade padding" id="profile">
-              <div class="row">
-      <div class="col-lg-12">
-        <div class="panel panel-default">
-
-          <!-- /.panel-heading -->
-            <div class="panel-body">
-              <table class="table " id="dataTables-example1">
-				  <thead>
-					<tr>
-					  <th>Round</th>
-					  <th>Target</th>
-					  <th>Employees</th>
-					  <th>Response Rate</th>
-					 
-					  
-					</tr>
-				  </thead>
-				  <tbody>
-		
-				  </tbody>
-				</table><!-- /.table-responsive -->           
-            </div>
-            <!-- /.panel-body --> 
+				<div class="row">
+      <div class="col-lg-6">
+        <div class="panel panel-info">
+          <div class="panel-heading">What are open-ended questions?</div>
+          <div class="panel-body">
+            <p style="font-size:10px;">This lets you asked open-ended questions, without having to fit your question into Peakon's engagement framework.</p>
+          </div>
+         <div class="panel-footer">Export questions</div>
         </div>
-        <!-- /.panel --> 
       </div>
-      <!-- /.col-lg-12 --> 
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-6">
+        <div class="panel panel-warning">
+          <div class="panel-heading">Open-ended comments</div>
+          <div class="panel-body">
+            <p  style="font-size:10px;">To view the comments your employees have provided, go to your dashboard and click the Open-Ended Comments tab.</p>
+          </div>
+          <div class="panel-footer">Export questions</div>
+        </div>
+      </div>
+
+      <!-- /.col-lg-4 --> 
     </div> 
+
+	<div class="row">
+
+<div class="col-xs-12  col-md-12">
+        <h1 class="page-header small">
+Question</h1>
+        <p class="page-subtitle small">Limited information is visible</p>
+        <div class="panel-group " id="accordian3" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default active">
+            <div class="panel-heading" role="tab" id="headingOne3">
+              <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3" class="" style="font-size:12px;">If you had a magic wand, what's the one thing you would change about clickrstop software solutions private limited?<span class="fa fa-angle-down pull-right"></span> </a> </h4>
+            </div>
+            <div id="collapseOne3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne3" aria-expanded="true" style="">
+              <div class="panel-body">
+        		<div class="col-md-8">
+					<h6 style="color:#cccccc;">Question</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class ="col-md-4">
+					<h6 style="color:#cccccc;">Frequency</h6>
+					<select class="form-control">
+                          <option>Always</option>
+                      <option>Once</option>
+                      <option>Weekly</option>
+                      <option>Monthly</option>
+                      <option>Quarterly</option>
+                    </select>
+				</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo3">
+              <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3" style="font-size:12px;">What team event would you most like to see next?<span class="fa fa-angle-down pull-right"></span> </a> </h4>
+            </div>
+            <div id="collapseTwo3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo3">
+              <div class="panel-body">
+              		<div class="col-md-8">
+					<h6 style="color:#cccccc;">Question</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class ="col-md-4">
+					<h6 style="color:#cccccc;">Frequency</h6>
+					<select class="form-control">
+                             <option>Always</option>
+                      <option>Once</option>
+                      <option>Weekly</option>
+                      <option>Monthly</option>
+                      <option>Quarterly</option>
+                    </select>
+				</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree3">
+              <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3" style="font-size:12px;">What's on your mind right now that you'd like to tell us?<span class="fa fa-angle-down pull-right"></span> </a> </h4>
+            </div>
+            <div id="collapseThree3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree3">
+              <div class="panel-body">
+            		<div class="col-md-8">
+					<h6 style="color:#cccccc;">Question</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+				<div class ="col-md-4">
+					<h6 style="color:#cccccc;">Frequency</h6>
+					<select class="form-control">
+                      <option>Always</option>
+                      <option>Once</option>
+                      <option>Weekly</option>
+                      <option>Monthly</option>
+                      <option>Quarterly</option>
+                    </select>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
               </div>
          
             </div>
@@ -109,47 +250,6 @@
     </div>
     <!-- /.row -->
 
-	<div class="row">
-
-      
-      <div class="col-xs-12 col-md-12">
-        <h1 class="page-header small">Engagement</h1>
-        <p class="page-subtitle small">How likely is it you would recommend clickrstop software solutions private limited as a place to work?</p>
-        <div class="panel-group " id="accordian2" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default active">
-            <div class="panel-heading" role="tab" id="headingOne2">
-              <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne2" aria-expanded="false" aria-controls="collapseOne2" class="collapsed"> Collapsible Group Item #1<span class="fa fa-angle-down pull-right"></span> </a> </h4>
-            </div>
-            <div id="collapseOne2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne2" aria-expanded="false" style="height: 0px;">
-              <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo2">
-              <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2"> Collapsible Group Item #2<span class="fa fa-angle-down pull-right"></span> </a> </h4>
-            </div>
-            <div id="collapseTwo2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo2">
-              <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree2">
-              <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2"> Collapsible Group Item #3<span class="fa fa-angle-down pull-right"></span> </a> </h4>
-            </div>
-            <div id="collapseThree2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree2">
-              <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
 
   </div>
 </div>

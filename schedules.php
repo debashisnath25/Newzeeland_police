@@ -23,8 +23,8 @@
     <div class="row">
       <?php include("header.php");?>
     <ol class="breadcrumb">
-      <li><a href="dashboard.php">TeamGraph</a></li>
-      <li class="active">Manage Employee</li>
+      <li><a href="dashboard.php">Employee Survey</a></li>
+      <li class="active">Schedules</li>
     </ol>
     </div>
 	<div class="row" style="margin-top:10px;">
