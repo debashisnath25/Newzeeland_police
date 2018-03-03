@@ -1,7 +1,7 @@
   <div class="navbar-default sidebar" >
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" > <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="dashboard.php">TeamGraph</a> </div>
+      <a class="navbar-brand" href="dashboard.php">NZPolice</a> </div>
     <div class="clearfix"></div>
     <div class="sidebar-nav navbar-collapse"> 
       

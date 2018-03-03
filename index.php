@@ -48,6 +48,12 @@
   </div>
 </div>
 
-<?php include("footer.php");?>
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Custom Theme JavaScript --> 
+<script src="js/raphael.js"></script> 
+<script src="js/morris.min.js"></script> 
+<script src="js/adminnine.js"></script> 
 </body>
 </html>

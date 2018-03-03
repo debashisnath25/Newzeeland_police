@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Manage Employee | TeamGraph</title>
+<title>Manage Employee | NZPolice</title>
 <?php include("metalinks.php");?>
 <link href="css/dataTables.bootstrap.css" rel="stylesheet">
 <link href="css/dataTables.responsive.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <div class="row">
       <?php include("header.php");?>
     <ol class="breadcrumb">
-      <li><a href="dashboard.php">TeamGraph</a></li>
+      <li><a href="dashboard.php">NZPolice</a></li>
       <li class="active">Manage Employee</li>
     </ol>
     </div>
@@ -56,7 +56,7 @@
         <div class="panel panel-default">
 			<div class="row" style="padding-left:15px;">
 			  <div class="col-md-12 text-right" style="color: #607D8B;">
-				 <a href="add_employee.php" class="btn btn-primary">Add Employee</a>
+				 <a href="add_employee.php" class="btn btn-default pull-right"><span class="fa fa-plus" aria-hidden="true"></span> Add Employee</a>
 			  </div>
 			</div>
           <!-- /.panel-heading -->
