@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Edit Schedule | Newzeland Police
+    <title>Edit Schedule | NZPolice
     </title>
     <?php include("metalinks.php");?>
     <link href="css/dataTables.bootstrap.css" rel="stylesheet">
@@ -35,7 +35,7 @@
           <?php include("header.php");?>
           <ol class="breadcrumb">
             <li>
-              <a href="dashboard.php">Employee Survey
+              <a href="dashboard.php">NZPolice
               </a>
             </li>
             <li class="active">Edit Schedules

@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Home | NZPolice</title>
+<title>Overview | NZPolice</title>
 <?php include("metalinks.php");?>
 </head>
 
@@ -26,12 +26,12 @@
     <?php include("header.php");?>
 	 <ol class="breadcrumb">
       <li><a href="dashboard.php">NZPolice</a></li>
-      <li class="active">Dashboard</li>
+      <li class="active">Overview</li>
     </ol>
    </div>
     <div class="row">
       <div class="col-md-12  header-wrapper" >
-        <h1 class="page-header">Dashboard</h1>
+        <h1 class="page-header">Overview</h1>
       </div>
       <!-- /.col-lg-12 --> 
     </div>
