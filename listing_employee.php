@@ -17,10 +17,10 @@ body {font-family: "Lato", sans-serif;}
 /* Style the tab */
 .tab {
     float: left;
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
     background-color: #fff;
     width: 20%;
-	height:auto;
+	height:539px;
 }
 
 /* Style the buttons inside the tab */
@@ -30,12 +30,13 @@ body {font-family: "Lato", sans-serif;}
     color: #252c3c;
     padding: 22px 16px;
     width: 100%;
-    border: none;
+    border: 1px solid #e8e8e8;
+	border-bottom: none;
     outline: none;
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /* Change background color of buttons on hover */
@@ -53,7 +54,11 @@ body {font-family: "Lato", sans-serif;}
     border: 1px solid #fff;
     width: 80%;
     border-left: none;
-	height:auto;
+	height:539px;
+	background-color:#f9f9f9;
+}
+.panel-footer{
+	background-color:#f9f9f9;
 }
 </style>
 </head>
@@ -224,15 +229,15 @@ body {font-family: "Lato", sans-serif;}
 		  <div class="col-lg-12 col-sm-12 col-xs-12">
 			<div class="panel panel-default">
 			  <!-- /.panel-heading -->
-				<div class="panel-body" style="border: 1px solid #ccc;">
+				<div class="panel-body">
 					<div class="tab">
-					  <button class="tablinks" onclick="openCity(event, 'Manager')" id="defaultOpen"><i class="fa fa-user">&nbsp;&nbsp;Manager</i></button>
-					  <button class="tablinks" onclick="openCity(event, 'Department')"><i class="fa fa-file-text-o">&nbsp;&nbsp;Department</i></button>
-					  <button class="tablinks" onclick="openCity(event, 'Office')"><i class="fa fa-building-o">&nbsp;&nbsp;Office</i></button>
-					  <button class="tablinks" onclick="openCity(event, 'Employed_since')"><i class="fa fa-calendar">&nbsp;&nbsp;Employed since</i></button>
-					  <button class="tablinks" onclick="openCity(event, 'dob')"><i class="fa fa-calendar-o">&nbsp;&nbsp;Date of Birth</i></button>
-					  <button class="tablinks" onclick="openCity(event, 'Gender')"><i class="fa fa-child">&nbsp;&nbsp;Gender</i></button>
-					  <button class="tablinks" onclick="openCity(event, 'Salary')"><i class="fa fa-usd">&nbsp;&nbsp;Salary</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'Manager')" id="defaultOpen"><i class="fa fa-user"></i>&nbsp;&nbsp;Manager</button>
+					  <button class="tablinks" onclick="openCity(event, 'Department')"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;Department</button>
+					  <button class="tablinks" onclick="openCity(event, 'Office')"><i class="fa fa-building-o"></i>&nbsp;&nbsp;Office</button>
+					  <button class="tablinks" onclick="openCity(event, 'Employed_since')"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Employed since</button>
+					  <button class="tablinks" onclick="openCity(event, 'dob')"><i class="fa fa-calendar-o"></i>&nbsp;&nbsp;Date of Birth</button>
+					  <button class="tablinks" onclick="openCity(event, 'Gender')"><i class="fa fa-child"></i>&nbsp;&nbsp;Gender</button>
+					  <button class="tablinks" onclick="openCity(event, 'Salary')"><i class="fa fa-usd"></i>&nbsp;&nbsp;Salary</button>
 					</div>
 
 					<div id="Manager" class="tabcontent">
