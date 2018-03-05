@@ -141,8 +141,7 @@
 
   </div>
 </div>
-
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -157,11 +156,37 @@
                   </div>
                   <div class="modal-body"><p>You can try out Peakon by sending a few test questions to yourself and some colleagues. Pick the employees you want to include in the test below.</p></div>
 				<div style="margin-left:220px;">
-				  <a class="btn btn-default btn-sm" href="/employees"><i class="icon-add-employee" ></i> Add employee</a>
+				  <a class="btn btn-default btn-sm" href="add_employee.php"><i class="fa fa-user-plus" ></i> Add employee</a>
 				</div>
                   <div class="modal-footer">
-                  
+			        <div class="panel-body" style="padding:0 !important;width:100%;">
+              <table class="table " id="dataTables-example">
+				
+				  <tbody>
+				 
+					<tr class="odd">
+						<td>
+							<div class="form-group" style="margin-left:10px;">
+								<div class="checkbox">
+									<input type="checkbox" value="" onchange="get_change();" >
+								</div>
+							</div>
+						</td>
+					  <td><img src="images/pic1.png" alt="" class="gridpic"></td>
+					  <td>John Doe</td>
+					  <td>info@maxartkiller.in</td>
+					  <td class="center">Marketing,CXO,Customer Support</td>
+					  
+		
+					</tr>
+			
+				
+				  </tbody>
+				</table><!-- /.table-responsive -->           
+            </div>
                   </div>
+
+
                 </div>
                 <!-- /.modal-content --> 
               </div>

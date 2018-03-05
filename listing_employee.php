@@ -35,7 +35,7 @@ body {font-family: "Lato", sans-serif;}
     text-align: left;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 /* Change background color of buttons on hover */
@@ -88,12 +88,14 @@ body {font-family: "Lato", sans-serif;}
 			<div class="row">
 			  <div class="col-lg-12">
 				<div class="panel panel-info">
-				  <div class="panel-heading">Update your list of employees</div>
-				  <div class="panel-body">
+				  <div class="panel-heading">Update your list of employees
+					 <a href="add_employee.php" class="btn btn-primary pull-right"><span class="fa fa-plus" aria-hidden="true"></span> Add Employee</a>
+				  </div>
+				  <div class="panel-body small">
 					<strong>Instructions to upload employee details:</strong>
 					<p>Please choose a .csv (comma-separated variables) file containing the email address, first name, last name, and teams (in that sequence), of all your employees. As a reference, you can <a href="javascript:void(0);">dowload a copy of your current employee list here</a>.</p>
 					  <div class="form-group">
-						<div class="col-md-3">
+						<div class="col-md-3" style="margin-top:8px;">
 							<input type="file" name="file">
 						</div>
 						<div class="col-md-2">
@@ -101,7 +103,7 @@ body {font-family: "Lato", sans-serif;}
 						</div>
 					  </div>
 				  </div>
-				  <div class="panel-footer"><b>NOTE:</b> The file you upload will replace your existing list of employees.Once you choose a .csv file, you will be notified of changes to your current list before you confirm the upload.</div>
+				  <div class="panel-footer small"><b>NOTE:</b> The file you upload will replace your existing list of employees.Once you choose a .csv file, you will be notified of changes to your current list before you confirm the upload.</div>
 				</div>
 			  </div>
 			  <!-- /.col-lg-12 --> 
@@ -111,14 +113,9 @@ body {font-family: "Lato", sans-serif;}
 		<div class="row">
 		  <div class="col-lg-12">
 			<div class="panel panel-default">
-				<div class="row" style="padding-left:15px;">
-				  <div class="col-md-12 text-right" style="color: #607D8B;">
-					 <a href="add_employee.php" class="btn btn-default pull-right"><span class="fa fa-plus" aria-hidden="true"></span> Add Employee</a>
-				  </div>
-				</div>
 			  <!-- /.panel-heading -->
 				<div class="panel-body">
-				  <table class="table " id="dataTables-example">
+				  <table class="table" id="dataTables-example">
 					  <thead>
 						<tr>
 						  <th>ID </th>
@@ -182,25 +179,25 @@ body {font-family: "Lato", sans-serif;}
 					  <form method="POST">
 						 <div class="row">
 						  <div class="col-lg-12 col-sm-12 col-xs-12">
-							<div class="panel">
-							  <div class="panel-heading">Attribute : <b>Manager</b></div>
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Manager</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Employee</h4>
-								<h5>Use to setup people relationships, such as who is the employee's manager or HRBP.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Employee</h4>
+								<h5 style="font-size:12px;">Use to setup people relationships, such as who is the employee's manager or HRBP.</h5>
 								  <div class="form-group">
-									<div class="col-md-2 col-sm-2 col-xs-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10 col-sm-10 col-xs-10">
+									<div class="col-md-6 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Manager">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
+								<div class="form-group" style="font-size:12px;">
 									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
 									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
@@ -246,69 +243,69 @@ body {font-family: "Lato", sans-serif;}
 						<div id="Department" class="tabcontent">
 						<form method="POST">
 						 <div class="row">
-						  <div class="col-lg-12">
-							<div class="panel ">
-							  <div class="panel-heading">Attribute : <b>Department</b></div>
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Department</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Option</h4>
-								<h5>Choose this to setup lists with multiple fixed values, such as a list of departments.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Option</h4>
+								<h5 style="font-size:12px;">Choose this to setup lists with multiple fixed values, such as a list of departments.</h5>
 								  <div class="form-group">
-									<div class="col-md-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10">
+									<div class="col-md-6 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Department">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
-									<div class="col-md-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+								<div class="form-group" style="font-size:12px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+										  <input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-4"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Status&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-2"></label>
+										  <input id="cmn-toggle-5" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-5"></label>
 										</div>
 									</div>
 								
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Use for comparison&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-6" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-6"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Aliases&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<input type="text" class="form-control">
 									</div>
-
-									<div class="col-md-12 style="padding-top:10px;">
+									<div class="col-md-10" style="padding-top:10px;">
 										<strong>Branded segments&nbsp;</strong><br/>
 										<p>For complex organisations. Uses the segment name and logo as branding in surveys and emails. Use this to use entity specific branding.</p>
 									</div>
-									<div class="col-md-12" style="padding-top:10px;padding-bottom:10px;">
+									<div class="col-md-2" style="padding-top:10px;padding-bottom:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-7" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-7"></label>
 										</div>
 									 </div>
+								  </div>
 									  <button type="reset" class="btn btn-default">Reset Button</button>
 									  <button type="submit" class="btn btn-primary">Submit Button</button>
 								  </div>
@@ -317,74 +314,74 @@ body {font-family: "Lato", sans-serif;}
 							</div>
 						  </form>
 						</div>
-					</div>
+					
 
 					  <div id="Office" class="tabcontent">
-						<form method="POST">
+					  <form method="POST">
 						 <div class="row">
-						  <div class="col-lg-12">
-							<div class="panel ">
-							  <div class="panel-heading">Attribute : <b>Office</b></div>
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Office</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Option</h4>
-								<h5>Choose this to setup lists with multiple fixed values, such as a list of departments.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Option</h4>
+								<h5 style="font-size:12px;">Choose this to setup lists with multiple fixed values, such as a list of departments.</h5>
 								  <div class="form-group">
-									<div class="col-md-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10">
+									<div class="col-md-6 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Office">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
-									<div class="col-md-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+								<div class="form-group" style="font-size:12px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+										  <input id="cmn-toggle-8" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-8"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Status&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-2"></label>
+										  <input id="cmn-toggle-9" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-9"></label>
 										</div>
 									</div>
 								
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Use for comparison&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-10" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-10"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Aliases&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<input type="text" class="form-control">
 									</div>
-
-									<div class="col-md-12 style="padding-top:10px;">
+									<div class="col-md-10" style="padding-top:10px;">
 										<strong>Branded segments&nbsp;</strong><br/>
 										<p>For complex organisations. Uses the segment name and logo as branding in surveys and emails. Use this to use entity specific branding.</p>
 									</div>
-									<div class="col-md-12" style="padding-top:10px;padding-bottom:10px;">
+									<div class="col-md-2" style="padding-top:10px;padding-bottom:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-11" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-11"></label>
 										</div>
 									 </div>
+								  </div>
 									  <button type="reset" class="btn btn-default">Reset Button</button>
 									  <button type="submit" class="btn btn-primary">Submit Button</button>
 								  </div>
@@ -393,62 +390,63 @@ body {font-family: "Lato", sans-serif;}
 							</div>
 						  </form>
 						</div>
-					  </div>
+
 					  <div id="Employed_since" class="tabcontent">
-						<form method="POST">
+					  <form method="POST">
 						 <div class="row">
-						  <div class="col-lg-12">
-							<div class="panel ">
-							  <div class="panel-heading">Attribute : <b>Employed since</b></div>
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Employed since</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Date</h4>
-								<h5>Used to set specific dates, such as hire dates.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Date</h4>
+								<h5 style="font-size:12px;">Used to set specific dates, such as hire dates.</h5>
 								  <div class="form-group">
-									<div class="col-md-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10">
+									<div class="col-md-6 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Employed since">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
-									<div class="col-md-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+								<div class="form-group" style="font-size:12px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+										  <input id="cmn-toggle-12" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-12"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Status&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-2"></label>
+										  <input id="cmn-toggle-13" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-13"></label>
 										</div>
 									</div>
 								
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Use for comparison&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-14" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-14"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Aliases&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<input type="text" class="form-control">
 									</div>
+								  </div>
 									  <button type="reset" class="btn btn-default">Reset Button</button>
 									  <button type="submit" class="btn btn-primary">Submit Button</button>
 								  </div>
@@ -457,62 +455,63 @@ body {font-family: "Lato", sans-serif;}
 							</div>
 						  </form>
 						</div>
-					  </div>
+
 					  <div id="dob" class="tabcontent">
-						<form method="POST">
+					  <form method="POST">
 						 <div class="row">
-						  <div class="col-lg-12">
-							<div class="panel ">
-							  <div class="panel-heading">Attribute : <b>Date of Birth</b></div>
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Date of Birth</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Date</h4>
-								<h5>Used to set specific dates, such as hire dates.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Date</h4>
+								<h5 style="font-size:12px;">Used to set specific dates, such as hire dates.</h5>
 								  <div class="form-group">
-									<div class="col-md-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10">
+									<div class="col-md-6 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Date of Birth">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
-									<div class="col-md-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+								<div class="form-group" style="font-size:12px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+										  <input id="cmn-toggle-15" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-15"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Status&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-2"></label>
+										  <input id="cmn-toggle-16" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-16"></label>
 										</div>
 									</div>
 								
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Use for comparison&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-17" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-17"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Aliases&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<input type="text" class="form-control">
 									</div>
+								  </div>
 									  <button type="reset" class="btn btn-default">Reset Button</button>
 									  <button type="submit" class="btn btn-primary">Submit Button</button>
 								  </div>
@@ -521,60 +520,60 @@ body {font-family: "Lato", sans-serif;}
 							</div>
 						  </form>
 						</div>
-					  </div>
+
 					  <div id="Gender" class="tabcontent">
-						<form method="POST">
+					   <form method="POST">
 						 <div class="row">
-						  <div class="col-lg-12">
-							<div class="panel ">
-							  <div class="panel-heading">Attribute : <b>Gender</b></div>
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Gender</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Option</h4>
-								<h5>Choose this to setup lists with multiple fixed values, such as a list of departments.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Option</h4>
+								<h5 style="font-size:12px;">Choose this to setup lists with multiple fixed values, such as a list of departments.</h5>
 								  <div class="form-group">
-									<div class="col-md-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10">
+									<div class="col-md-6 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Gender">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
-									<div class="col-md-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+								<div class="form-group" style="font-size:12px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+										  <input id="cmn-toggle-18" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-18"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Status&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-2"></label>
+										  <input id="cmn-toggle-19" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-19"></label>
 										</div>
 									</div>
 								
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Use for comparison&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-20" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-20"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Aliases&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<input type="text" class="form-control">
 									</div>
 									<div class="col-md-12" style="padding-top:10px;">
@@ -583,10 +582,11 @@ body {font-family: "Lato", sans-serif;}
 									</div>
 									<div class="col-md-12" style="padding-top:10px;padding-bottom:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-21" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-21"></label>
 										</div>
 									 </div>
+								  </div>
 									  <button type="reset" class="btn btn-default">Reset Button</button>
 									  <button type="submit" class="btn btn-primary">Submit Button</button>
 								  </div>
@@ -595,68 +595,66 @@ body {font-family: "Lato", sans-serif;}
 							</div>
 						  </form>
 						</div>
-					  </div>
+
 					  <div id="Salary" class="tabcontent">
-						<form method="POST">
+					   <form method="POST">
 						 <div class="row">
-						  <div class="col-lg-12">
-							<div class="panel ">
-							  <div class="panel-heading">Attribute : <b>Salary</b></div>
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<div class="">
+							  <div class="panel-heading" style="font-size:15px;">Attribute : <b style="font-size:12px;">Salary</b></div>
 							  <div class="panel-body">
-								<h4>Type</h4>
-								&nbsp;<h4>Number</h4>
-								<h5>Use this to setup number based values, such as salaries, performance evaluation scores, etc.</h5>
+								<h4 style="font-size:15px;">Type</h4>
+								&nbsp;<h4 style="font-size:15px;">Number</h4>
+								<h5 style="font-size:12px;">Use this to setup number based values, such as salaries, performance evaluation scores, etc.</h5>
 								  <div class="form-group">
-									<div class="col-md-2">
-										<label>Name</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Name</label>
 									</div>
-									<div class="col-md-10">
+									<div class="col-md-4 col-sm-8 col-xs-8">
 										<input type="text" class="form-control" placeholder="Salary">
 									</div>
-								   </div>
-								   <div class="form-group">
-									<div class="col-md-2">
-										<label>Ranges</label>
+									<div class="col-md-2 col-sm-2 col-xs-2" style="margin-top:8px;">
+										<label style="font-size:15px;">Ranges</label>
 									</div>
-									<div class="col-md-10">
-										<input type="number" class="form-control" placeholder="up to">
+									<div class="col-md-4 col-sm-8 col-xs-8">
+										<input type="text" class="form-control" placeholder="up to">
 									</div>
 								  </div>
 								</div>
 							  <div class="panel-footer">
-								<div class="form-group">
-									<div class="col-md-3" style="padding-top:10px;">
-										<label>User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
+								<div class="form-group" style="font-size:12px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
+										<label >User Editable&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+										  <input id="cmn-toggle-22" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-22"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Status&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-2" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-2"></label>
+										  <input id="cmn-toggle-23" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-23"></label>
 										</div>
 									</div>
 								
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Use for comparison&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-24" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-24"></label>
 										</div>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<label>Aliases&nbsp;<i class="fa fa-question-circle"></i></label>
 									</div>
-									<div class="col-md-3" style="padding-top:10px;">
+									<div class="col-md-3 col-sm-3 col-xs-3" style="padding-top:10px;">
 										<input type="text" class="form-control">
 									</div>
 									<div class="col-md-12" style="padding-top:10px;">
@@ -665,10 +663,11 @@ body {font-family: "Lato", sans-serif;}
 									</div>
 									<div class="col-md-12" style="padding-top:10px;padding-bottom:10px;">
 										<div class="switch">
-										  <input id="cmn-toggle-3" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-3"></label>
+										  <input id="cmn-toggle-25" class="cmn-toggle cmn-toggle-round" type="checkbox">
+										  <label for="cmn-toggle-25"></label>
 										</div>
 									 </div>
+								  </div>
 									  <button type="reset" class="btn btn-default">Reset Button</button>
 									  <button type="submit" class="btn btn-primary">Submit Button</button>
 								  </div>
@@ -682,16 +681,16 @@ body {font-family: "Lato", sans-serif;}
 				  </div>
 				</div> 
 			  </div>
-			</div>
+			
 			<div class="tab-pane fade" id="skills1">
 				<div class="row">
 				<div class="col-md-6">
 				  <div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="panel panel-default userlist">
 					  <div class="panel-heading">
-						<h3 class="page-header small">General</h3>
+						<h3 class="page-header" style="font-size:15px;">General</h3>
 					  <div class="panel-body text-left">
-						<dl>
+						<dl  style="font-size:12px;">
 						  <dt><input type="checkbox"> View employees</dt>
 						  <dd>Ability to view employee information.</dd>
 
@@ -712,9 +711,9 @@ body {font-family: "Lato", sans-serif;}
 						</dl>
 					  </div>
 					
-					<h3 class="page-header small">ENGAGE</h3>
+					<h3 class="page-header" style="font-size:15px;">ENGAGE</h3>
 					  <div class="panel-body text-center">
-						<dl>
+						<dl  style="font-size:12px;">
 						  <dt><input type="checkbox"> Access statistics</dt>
 						  <dd>Sets the ability to access all statistical information, such as engagement and driver scores.</dd>
 
@@ -773,10 +772,10 @@ body {font-family: "Lato", sans-serif;}
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="panel panel-default userlist">
 					  <div class="panel-heading">
-						<h3 class="page-header small">People(1 people)</h3>
+						<h3 class="page-header"  style="font-size:15px;">People(1 people)</h3>
 					  <div class="panel-body text-left">
 						 <div class="col-md-10">
-							<select class="form-control">
+							<select class="form-control"  style="font-size:12px;">
 							  <option selected disabled>Choose Employee</option>
 							</select>
 						  </div>
