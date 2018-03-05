@@ -30,9 +30,9 @@
     </div>
     <div class="row">
       <div class="col-md-12 header-wrapper" >
-        <h1 class="page-header">Integration</h1>
+        <h1 class="page-header small">Integration</h1>
       </div>
-	  <label class="panel-heading">This is where you manage integrations with external services.</label>
+	  <label class="panel-title small" style="padding-left:15px;">This is where you manage integrations with external services.</label>
       <!-- /.col-lg-12 --> 
     </div>
     <!-- /.row -->
