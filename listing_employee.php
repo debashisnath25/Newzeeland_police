@@ -88,7 +88,9 @@ body {font-family: "Lato", sans-serif;}
 			<div class="row">
 			  <div class="col-lg-12">
 				<div class="panel panel-info">
-				  <div class="panel-heading">Update your list of employees</div>
+				  <div class="panel-heading">Update your list of employees
+					 <a href="add_employee.php" class="btn btn-primary pull-right"><span class="fa fa-plus" aria-hidden="true"></span> Add Employee</a>
+				  </div>
 				  <div class="panel-body">
 					<strong>Instructions to upload employee details:</strong>
 					<p>Please choose a .csv (comma-separated variables) file containing the email address, first name, last name, and teams (in that sequence), of all your employees. As a reference, you can <a href="javascript:void(0);">dowload a copy of your current employee list here</a>.</p>
@@ -111,11 +113,6 @@ body {font-family: "Lato", sans-serif;}
 		<div class="row">
 		  <div class="col-lg-12">
 			<div class="panel panel-default">
-				<div class="row" style="padding-left:15px;">
-				  <div class="col-md-12 text-right" style="color: #607D8B;">
-					 <a href="add_employee.php" class="btn btn-default pull-right"><span class="fa fa-plus" aria-hidden="true"></span> Add Employee</a>
-				  </div>
-				</div>
 			  <!-- /.panel-heading -->
 				<div class="panel-body">
 				  <table class="table " id="dataTables-example">

@@ -50,36 +50,39 @@
             <div class="row">
               <div class="col-lg-12">
                 <form method="POST">
-				<label class="panel-heading">Personal</label>
+				<label class="panel-heading page-subtitle small">Personal</label>
                   <div class="form-group">
-					<div class="row">
-						 <div class="col-lg-2 text-left" style="margin-top:8px;">
-							<span >First Name</span>
+				   <div class="row">
+					<div class="col-md-10">
+						 <div class="col-lg-2 text-left">
+							<h4 style="font-size:12px;">First Name</h4>
 						 </div>
 						 <div class="col-lg-4">
 							<input type="text" class="form-control" value="" >
 						 </div>
-						 <div class="col-lg-2 text-left" style="margin-top:8px;">
-							<span>Last Name</span>
+						 <div class="col-lg-2 text-left ">
+							<h4 style="font-size:12px;">Last Name</h4>
 						 </div>
 						 <div class="col-lg-4">
 							<input type="text" class="form-control" value="" >
 						 </div>
 					  </div>
+					 </div>
 					</div>
 					<div class="form-group">
 					<div class="row">
+					<div class="col-md-10">
 						 <div class="col-lg-2 text-left" style="margin-top:8px;">
-							<span>Date of Birth</span>
+							<h4 style="font-size:12px;">Date of Birth</h4>
 						 </div>
 						 <div class="col-lg-4">
 							<input class="form-control" value="" >
 						 </div>
 						 <div class="col-lg-2 text-left" style="margin-top:8px;">
-							<span>Gender</span>
+							<h4 style="font-size:12px;">Gender</h4>
 						 </div>
 						 <div class="col-lg-4">
-							<select class="form-control">
+							<select class="form-control" style="font-size:12px;">
 							  <option selected disabled>Choose Gender</option>
 							  <option>Male</option>
 							  <option>Female</option>
@@ -88,21 +91,23 @@
 						 </div>
 					  </div>
 					</div>
+					</div>
 					<hr/>
-					<label class="panel-heading">Contact</label>
+					<label class="panel-heading page-subtitle small">Contact</label>
 					  <div class="form-group">
 						<div class="row">
+						<div class="col-md-10">
 							 <div class="col-lg-2 text-left" style="margin-top:8px;">
-								<span>Email</span>
+								<h4 style="font-size:12px;">Email</h4>
 							 </div>
 							 <div class="col-lg-4">
 								<input type="email" class="form-control" value="" >
 							 </div>
 							 <div class="col-lg-2 text-left" style="margin-top:8px;">
-								<span>Phone Number</span>
+								<h4 style="font-size:12px;">Phone Number</h4>
 							 </div>
 							 <div class="col-lg-2" style="padding:0px;">
-								<select name="country" class="form-control">
+								<select name="country" class="form-control" style="font-size:12px;">
 									<option value="AD">AD - Andorra (+376)</option>
 									<option value="AE">AE - United Arab Emirates (+971)</option>
 									<option value="AF">AF - Afghanistan (+93)</option>
@@ -340,106 +345,122 @@
 								</div>
 						   </div>
 						 </div>
-						<div class="form-group">
-						<div class="row">
+						</div>
+						
+						
+						<hr/>
+						<label class="panel-heading page-subtitle small">Employement</label>
+						 <div class="form-group">
+						  <div class="row">
+							<div class="col-md-10">
 							 <div class="col-lg-2 text-left" style="margin-top:8px;">
-								<span>Employee Number</span>
+								<h4 style="font-size:12px;">Employee Number</h4>
 							 </div>
 							 <div class="col-lg-4">
 								<input type="text" class="form-control" value="" >
 							 </div>
+							 <div class="col-lg-2 text-left" style="margin-top:8px;">
+								<h4 style="font-size:12px;">Employeed since</h4>
+							 </div>
+							 <div class="col-lg-4">
+								<input type="email" class="form-control" value="" >
+							 </div>
+							</div>
 						  </div>
 						</div>
 						<hr/>
-						<label class="panel-heading">Employement</label>
+						<label class="panel-heading page-subtitle small">Job</label>
 						  <div class="form-group">
 							<div class="row">
+							 <div class="col-md-10">
 								 <div class="col-lg-2 text-left" style="margin-top:8px;">
-									<span>Employeed since</span>
+									<h4 style="font-size:12px;">Manager</h4>
 								 </div>
 								 <div class="col-lg-4">
-									<input type="email" class="form-control" value="" >
-								 </div>
-							  </div>
-							</div>
-							<hr/>
-						<label class="panel-heading">Job</label>
-						  <div class="form-group">
-							<div class="row">
-								 <div class="col-lg-2 text-left" style="margin-top:8px;">
-									<span>Manager</span>
-								 </div>
-								 <div class="col-lg-4">
-									<select class="form-control">
+									<select class="form-control" style="font-size:12px;">
 									  <option selected disabled>Choose Manager</option>
 									</select>
 								 </div>
 								 <div class="col-lg-2 text-left" style="margin-top:8px;">
-									<span>Department</span>
+									<h4 style="font-size:12px;">Department</h4>
 								 </div>
 								 <div class="col-lg-4">
-									<select class="form-control">
+									<select class="form-control" style="font-size:12px;">
 									  <option selected disabled>Choose Department</option>
 									</select>
 								 </div>
 							  </div>
 							</div>
+							</div>
 							<div class="form-group">
 							  <div class="row">
+							  <div class="col-md-10">
 								 <div class="col-lg-2 text-left" style="margin-top:8px;">
-									<span>Office</span>
+									<h4 style="font-size:12px;">Office</h4>
 								 </div>
 								 <div class="col-lg-4">
-									<select class="form-control">
+									<select class="form-control" style="font-size:12px;">
 									  <option selected disabled>Choose Office</option>
 									</select>
 								 </div>
 								 <div class="col-lg-2 text-left" style="margin-top:8px;">
-									<span>Salary</span>
+									<h4 style="font-size:12px;">Salary</h4>
 								 </div>
 								 <div class="col-lg-4">
-									<input type="text" class="form-control form-control-xs" value="">
+									<input type="text" class="form-control form-control-xs" value="" style="font-size:12px;">
 								 </div>
 							  </div>
 							</div>
+							</div>
 							<hr/>
-							<label class="panel-heading">Preferences</label>
+							<label class="panel-heading page-subtitle small">Preferences</label>
 							  <div class="form-group">
 								<div class="row">
+								<div class="col-md-10">
 									 <div class="col-lg-2 text-left" style="margin-top:8px;">
-										<span>Engagement</span>
+										<h4 style="font-size:12px;">Engagement</h4>
 									 </div>
-									 <div class="col-lg-1">
-										<div class="switch">
-										  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
-										  <label for="cmn-toggle-1"></label>
+									 <dl style="margin-top:-25px;">
+									  <dt>
+										<div class="col-lg-1">
+											<div class="switch">
+											  <input id="cmn-toggle-1" class="cmn-toggle cmn-toggle-round" type="checkbox">
+											  <label for="cmn-toggle-1"></label>
+											</div>
+									    </div>
+									  </dt>
+									  <dd>
+										<div class="col-lg-3">
+											<h4 style="font-size:12px;"> Included in future surveys</h4>
 										</div>
-									 </div>
-									 <div class="col-lg-3">
-										<span> Included in future surveys</span>
-									 </div>
+									  </dd>
+									 </dl>
+
 									 <div class="col-lg-2 text-left" style="margin-top:8px;">
-										<span>Timezone</span>
+										<h4 style="font-size:12px;">Timezone</h4>
 									 </div>
 									 <div class="col-lg-4">
-										<select class="form-control">
+										<select class="form-control" style="font-size:12px;">
 										  <option selected disabled>Choose Timezone</option>
 										</select>
 									 </div>
 								  </div>
 								</div>
+								</div>
 								<div class="form-group">
 								  <div class="row">
+								  <div class="col-md-10">
 									 <div class="col-lg-2 text-left" style="margin-top:8px;">
-										<span>Language</span>
+										<h4 style="font-size:12px;">Language</h4>
 									 </div>
 									 <div class="col-lg-4">
-										<select class="form-control">
+										<select class="form-control" style="font-size:12px;">
 										  <option selected disabled>Choose Language</option>
 										</select>
 									 </div>
 								  </div>
 							  </div>
+							 </div>
 							<hr/>
 						 <div class="form-group text-right">
 						  <button type="reset" class="btn btn-default">Reset Button</button>
