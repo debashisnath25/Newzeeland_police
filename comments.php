@@ -37,7 +37,7 @@
       <?php include("header.php");?>
     <ol class="breadcrumb">
       <li><a href="dashboard.php">NZPolice</a></li>
-      <li class="active">Topics</li>
+      <li class="active">Comments</li>
     </ol>
     </div>
 	<form method="POST">
@@ -60,10 +60,10 @@
                 <div class="col-md-12">
 				<h4 class="normal">What's the one thing that would improve your productivity right now? </h4>
 					<div class="media">
-					  <div class="media-left"><a href="javascript:void(0)" class="btn btn-default btn-circle btn-lg"><i class="fa fa-comment-o"></i></a></div>
+					  <div class="media-left"><a href="single_topic.php" class="btn btn-default btn-circle btn-lg"><i class="fa fa-comment-o"></i></a></div>
 					  <div class="media-body" >
-						<h4 class="normal">Metings(7 comments)</h4>
-						We have loads of meetings, but they're pointless because people are talking all day too ... Guess we just need to be more organised so people know what they're meant to be doing without asking all the time ... I really need fewer meetings throughout the week.</div>
+						<a href="single_topic.php" style="text-decoration:none;"><h4 class="normal">Metings(7 comments)</h4>
+						We have loads of meetings, but they're pointless because people are talking all day too ... Guess we just need to be more organised so people know what they're meant to be doing without asking all the time ... I really need fewer meetings throughout the week.</a></div>
 					</div>
 					<div class="media">
 					  <div class="media-left"><a href="javascript:void(0)" class="btn btn-default btn-circle btn-lg"><i class="fa fa-comment-o"></i></a></div>
