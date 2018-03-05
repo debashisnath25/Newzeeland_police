@@ -54,7 +54,7 @@
               <div class="clearfix"></div>
               <div class="col-md-12">
                 <div class="userprofile">
-                  <div class="userpic pull-left"> <img src="images/pic4.png" alt="" class="userpicimg"> <a href="" class="btn btn-primary settingbtn"><i class="fa fa-upload"></i></a> </div>
+                  <div class="userpic pull-left"> <img src="images/pic2.png" alt="" class="userpicimg"> <a href="" class="btn btn-primary settingbtn"><i class="fa fa-upload"></i></a> </div>
                 </div>
                 <div class="clearfix"></div>
                 <dl class="dl-horizontal">
