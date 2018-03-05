@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Manage Employee | TeamGraph</title>
+<title>Settings | NZPolice</title>
 <?php include("metalinks.php");?>
 <link href="css/dataTables.bootstrap.css" rel="stylesheet">
 <link href="css/dataTables.responsive.css" rel="stylesheet">
@@ -29,8 +29,8 @@
     <div class="row">
       <?php include("header.php");?>
     <ol class="breadcrumb">
-      <li><a href="dashboard.php">TeamGraph</a></li>
-      <li class="active">Manage Employee</li>
+      <li><a href="dashboard.php">NZPolice</a></li>
+      <li class="active">Settings</li>
     </ol>
     </div>
 	<form method="POST">

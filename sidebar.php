@@ -15,8 +15,11 @@
       <!-- user profile pic -->
       
       <ul class="nav" id="side-menu">
-        <li> <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a> </li>
-		<li> <a href="myteams.php"><i class="fa fa-dashboard fa-fw"></i> Teams Overview</a> </li>
+        <li> <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Overview</a> </li>
+		<li> <a href="segments.php"><i class="fa fa-th-large fa-fw"></i> Segments</a> </li>
+		<li> <a href="comments.php"><i class="fa fa-comment-o fa-fw"></i> Comments</a> </li>
+		<li> <a href="topics.php"><i class="fa fa-bullhorn fa-fw"></i> Topics</a> </li>
+		<li> <a href="setting.php"><i class="fa fa-cog fa-fw"></i> Settings</a> </li>
         <!--<li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-cubes"></i>Reports<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li><a href="report.php"  style="padding-left:10px;">Conductive Culture</a></li>
@@ -43,14 +46,13 @@
           </ul>
           <!-- /.nav-second-level --> 
         </li>
-        <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-bar-chart-o fa-fw"></i>Account<span class="fa arrow"></span></a>
+        <!--<li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-bar-chart-o fa-fw"></i>Account<span class="fa arrow"></span></a>
           <ul class="nav nav-second-level">
             <li> <a href="manage_employee.php"  style="padding-left:10px;">Manage Employees</a> </li>
             <li> <a href="manage_team.php"  style="padding-left:10px;">Manage Teams</a> </li>
             <li> <a href="profile.php"  style="padding-left:10px;">My Profile</a> </li>
           </ul>
-          <!-- /.nav-second-level --> 
-        </li>
+        </li>-->
       </ul>
     </div>
     <!-- /.sidebar-collapse --> 
