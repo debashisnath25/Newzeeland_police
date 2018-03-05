@@ -377,7 +377,7 @@
             </div>
           </div>
         </div>
-     	   <div class="row blockspanel" style="height:400px;border-bottom:1px solid #cccccc;">
+     	   <div class="row blockspanel" style="height:400px;border-bottom:1px solid #cccccc;margin-top:10px;">
           <div class="col-md-12">
             <div class="col-md-3">
               <img src="https://dz621uqobpzv4.cloudfront.net/apps/dashboard-comments-6f667daf3f36e72c5e0093ab39878e0a.svg">
