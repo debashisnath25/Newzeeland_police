@@ -42,7 +42,7 @@
 						<td>
 							<div class="form-group" style="margin-left:10px;">
 								<div class="checkbox">
-									<input type="checkbox" value="" >
+									<input type="checkbox" value="" onchange="get_change();" >
 								</div>
 							</div>
 						</td>
@@ -92,7 +92,12 @@
 	<strong>Copyright &copy; 2018 <a href="javascript:void(0);">Clickrstop Software Solutions Pvt. Ltd.</a></strong> All rights reserved.
 </div>
 
-
+<script>
+	function get_change()
+	{
+		window.location.assign("listing_employee.php");
+	}
+</script>
 <script src="js/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript --> 
 <script src="js/bootstrap.min.js"></script> 
