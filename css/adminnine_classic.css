@@ -643,8 +643,9 @@ textarea.form-control {
 	background: none;
 	z-index: 9;
 	margin-top: 0px;
-	background: #ffffff;
+	background: #2C2F37;
 	border-bottom: 1px solid #e1eaef;
+	box-shadow: inset 2px 0 6px rgba(0,0,0,.4), 0 1px 6px rgba(0,0,0,.3);
 }
 .navbar-top-links {
 	margin-right: 0;
@@ -3073,12 +3074,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	-ms-transition: 0.5s ease all;
 	-moz-transition: 0.5s ease all;
 }
-.userpic:hover {
+/*.userpic:hover {
 	box-shadow: 0px 8px 15px 0 rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0px 8px 15px 0 rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow: 0px 8px 15px 0 rgba(0, 0, 0, 0.25);
 	-ms-box-shadow: 0px 8px 15px 0 rgba(0, 0, 0, 0.12);
-}
+}*/
 /*==============================*/
 /*====== Count Down CSS ======*/
 /*==============================*/

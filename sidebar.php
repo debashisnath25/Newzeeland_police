@@ -1,4 +1,4 @@
-  <div class="navbar-default sidebar" >
+  <div class="navbar-default sidebar" style="background-color:#2B2F36;">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" > <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand" href="dashboard.php">NZPolice</a> </div>
