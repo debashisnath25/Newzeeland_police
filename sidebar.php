@@ -6,13 +6,14 @@
     <div class="sidebar-nav navbar-collapse"> 
       
       <!-- user profile pic -->
- 
+		<a href="javascript:void(0);" class="btn btn-primary btn-circle btn-lg" style="margin:10px 0px 15px 15px;">DN</a> <span style="margin-left:10px;color:white;">Debashis Nath</span>
       <div class="clearfix"></div>
       <!-- user profile pic -->
     
       <ul class="nav" id="side-menu">
 	   
-        <li> <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Overview</a> </li>
+        <!-- <li> <a href="javascript:void(0);"><span class="btn btn-primary btn-circle btn-lg">DN</span></li> -->
+		<li> <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Overview</a> </li>
 		<li> <a href="segments.php"><i class="fa fa-th-large fa-fw"></i> Segments</a> </li>
 		<li> <a href="comments.php"><i class="fa fa-comment-o fa-fw"></i> Comments</a> </li>
 		<li> <a href="topics.php"><i class="fa fa-bullhorn fa-fw"></i> Topics</a> </li>
