@@ -17,17 +17,17 @@ body {font-family: "Lato", sans-serif;}
 /* Style the tab */
 .tab {
     float: left;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    width: 30%;
-	height:600px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 20%;
+	height:auto;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
     display: block;
     background-color: inherit;
-    color: black;
+    color: #252c3c;
     padding: 22px 16px;
     width: 100%;
     border: none;
@@ -39,23 +39,21 @@ body {font-family: "Lato", sans-serif;}
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #fff;
-}
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #252c3c;
+	color:#fff;
 }
 
 /* Style the tab content */
 .tabcontent {
     float: left;
     padding: 0px 12px;
-    border: 1px solid #ccc;
-    width: 70%;
+    border: 1px solid #fff;
+    width: 80%;
     border-left: none;
-	height:600px;
+	height:auto;
 }
 </style>
 </head>
@@ -114,8 +112,105 @@ body {font-family: "Lato", sans-serif;}
 		  <div class="col-lg-12">
 			<div class="panel panel-default">
 			  <!-- /.panel-heading -->
-				<div class="panel-body">
-				  <table class="table" id="dataTables-example">
+				<div class="panel-body" style="padding:5px;">
+					<div class="col-md-3">
+					  <div class="panel-body">
+					  <div class="form-group input-group" style="border: 1px solid #ccc;">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+						<button class="btn btn-default" type="button"><i class="fa fa-search"></i> </button>
+						</span>
+					  </div>
+					  <div class="col-md-6">
+						<h4 style="font-size:15px;">Filter</h4>
+					  </div>
+					   <div class="col-md-6" style="">
+						<input type="reset" value="Clear All" class="btn btn-default" style="font-size:10px;">
+					  </div>
+
+					  <div class="panel-heading">
+						<h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Personal</h3>
+						  <div class="panel-body text-left">
+							<dl  style="font-size:12px;">
+							  <dt><input type="checkbox"> Date of Birth</dt>
+							  <dt><input type="checkbox"> Gender</dt>
+							</dl>
+						  </div>
+						  <h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Job</h3>
+						  <div class="panel-body text-left">
+							<dl  style="font-size:12px;">
+							  <dt><input type="checkbox"> Manager</dt>
+							  <dt><input type="checkbox"> Department</dt>
+							  <dt><input type="checkbox"> Office</dt>
+							  <dt><input type="checkbox"> Salary</dt>
+							</dl>
+						  </div>
+						  <h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Employment</h3>
+						  <div class="panel-body text-left">
+							<dl  style="font-size:12px;">
+							  <dt><input type="checkbox"> Employed Since</dt>
+							</dl>
+						  </div>
+						  <h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Contact</h3>
+						  <div class="panel-body text-left">
+							<dl  style="font-size:12px;">
+							  <dt><input type="checkbox"> Email Status</dt>
+							  <dt><input type="checkbox"> Engagement</dt>
+							</dl>
+						  </div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-9">
+					<div id="table">
+					  <form method="POST">
+						 <div class="row">
+						  <div class="col-lg-12 col-sm-12 col-xs-12">
+							<table class="table" id="dataTables-example">
+					  <thead>
+						<tr>
+						  <th>ID </th>
+						  <th>Name</th>
+						  <th>Email</th>
+						  <th>Team</th>
+						  <th>Role</th>
+						  <th>Status</th>
+						</tr>
+					  </thead>
+					  <tbody>
+					  <?php
+						for($i=0;$i<20;$i++){
+					  ?>
+						<tr class="odd">
+						  <td><img src="images/pic2.png" alt="" class="gridpic">10001</td>
+						  <td>John Doe</td>
+						  <td>info@maxartkiller.in</td>
+						  <td class="center">Marketing,CXO,Customer Support</td>
+						  <td class="center">Employee</td>
+						  <td class="center"><span class="status active">Active</span></td>
+						</tr>
+						 <tr class="odd">
+						  <td><img src="images/pic3.png" alt="" class="gridpic">10042</td>
+						  <td>Lady Joe</td>
+						  <td>info@maxartkiller.in</td>
+						  <td class="center">Marketing,CXO,Customer Support</td>
+						  <td class="center">Employee</td>
+						  <td class="center"><span class="status inactive">Inactive</span></td>
+						</tr>
+						<?php
+							}
+						?>
+					  </tbody>
+					</table>
+				  </div>
+				</div>
+			  </form>			
+			</div>
+			</div>
+		   </div>
+					 
+				 <!-- <table class="table" id="dataTables-example">
 					  <thead>
 						<tr>
 						  <th>ID </th>
@@ -150,8 +245,8 @@ body {font-family: "Lato", sans-serif;}
 							}
 						?>
 					  </tbody>
-					</table><!-- /.table-responsive -->           
-				</div>
+					</table> -->           
+				
 				<!-- /.panel-body --> 
 			</div>
 			<!-- /.panel --> 
@@ -164,7 +259,7 @@ body {font-family: "Lato", sans-serif;}
 		  <div class="col-lg-12 col-sm-12 col-xs-12">
 			<div class="panel panel-default">
 			  <!-- /.panel-heading -->
-				<div class="panel-body">
+				<div class="panel-body" style="border: 1px solid #ccc;">
 					<div class="tab">
 					  <button class="tablinks" onclick="openCity(event, 'Manager')" id="defaultOpen">Manager</button>
 					  <button class="tablinks" onclick="openCity(event, 'Department')">Department</button>
