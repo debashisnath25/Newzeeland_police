@@ -6,15 +6,12 @@
     <div class="sidebar-nav navbar-collapse"> 
       
       <!-- user profile pic -->
-      <div class="userprofile text-center">
-        <div class="userpic"> <img src="images/pic4.png" alt="" class="userpicimg"> <a href="profile.php" class="btn btn-primary settingbtn"><i class="fa fa-gear"></i></a> </div>
-        <h3 class="username">Lucky Sans</h3>
-        <p>Customer Support, CXO</p>
-      </div>
+ 
       <div class="clearfix"></div>
       <!-- user profile pic -->
-      
+    
       <ul class="nav" id="side-menu">
+	   
         <li> <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Overview</a> </li>
 		<li> <a href="segments.php"><i class="fa fa-th-large fa-fw"></i> Segments</a> </li>
 		<li> <a href="comments.php"><i class="fa fa-comment-o fa-fw"></i> Comments</a> </li>
