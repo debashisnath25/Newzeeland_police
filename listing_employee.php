@@ -112,9 +112,9 @@ body {font-family: "Lato", sans-serif;}
 		  <div class="col-lg-12">
 			<div class="panel panel-default">
 			  <!-- /.panel-heading -->
-				<div class="panel-body" style="padding:5px;">
-					<div class="col-md-3">
-					  <div class="panel-body">
+				<div class="panel-body" style="border: 1px solid #ccc;">
+					<div class="col-md-3" style="height:500px;overflow-y: scroll;border: 1px solid #ccc;padding:10px;">
+					  <div class="panel-body" style="padding:2px;">
 					  <div class="form-group input-group" style="border: 1px solid #ccc;">
 						<input type="text" class="form-control">
 						<span class="input-group-btn">
@@ -136,6 +136,7 @@ body {font-family: "Lato", sans-serif;}
 							  <dt><input type="checkbox"> Gender</dt>
 							</dl>
 						  </div>
+						 <hr/>
 						  <h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Job</h3>
 						  <div class="panel-body text-left">
 							<dl  style="font-size:12px;">
@@ -145,12 +146,14 @@ body {font-family: "Lato", sans-serif;}
 							  <dt><input type="checkbox"> Salary</dt>
 							</dl>
 						  </div>
+						  <hr/>
 						  <h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Employment</h3>
 						  <div class="panel-body text-left">
 							<dl  style="font-size:12px;">
 							  <dt><input type="checkbox"> Employed Since</dt>
 							</dl>
 						  </div>
+						 <hr/>
 						  <h3 class="page-header" style="font-size:15px;margin-bottom:-25px;">Contact</h3>
 						  <div class="panel-body text-left">
 							<dl  style="font-size:12px;">
@@ -209,44 +212,6 @@ body {font-family: "Lato", sans-serif;}
 			</div>
 			</div>
 		   </div>
-					 
-				 <!-- <table class="table" id="dataTables-example">
-					  <thead>
-						<tr>
-						  <th>ID </th>
-						  <th>Name</th>
-						  <th>Email</th>
-						  <th>Team</th>
-						  <th>Role</th>
-						  <th>Status</th>
-						</tr>
-					  </thead>
-					  <tbody>
-					  <?php
-						for($i=0;$i<20;$i++){
-					  ?>
-						<tr class="odd">
-						  <td><img src="images/pic1.png" alt="" class="gridpic">10001</td>
-						  <td>John Doe</td>
-						  <td>info@maxartkiller.in</td>
-						  <td class="center">Marketing,CXO,Customer Support</td>
-						  <td class="center">Employee</td>
-						  <td class="center"><span class="status active">Active</span></td>
-						</tr>
-						 <tr class="odd">
-						  <td><img src="images/pic3.png" alt="" class="gridpic">10042</td>
-						  <td>Lady Joe</td>
-						  <td>info@maxartkiller.in</td>
-						  <td class="center">Marketing,CXO,Customer Support</td>
-						  <td class="center">Employee</td>
-						  <td class="center"><span class="status inactive">Inactive</span></td>
-						</tr>
-						<?php
-							}
-						?>
-					  </tbody>
-					</table> -->           
-				
 				<!-- /.panel-body --> 
 			</div>
 			<!-- /.panel --> 
@@ -261,13 +226,13 @@ body {font-family: "Lato", sans-serif;}
 			  <!-- /.panel-heading -->
 				<div class="panel-body" style="border: 1px solid #ccc;">
 					<div class="tab">
-					  <button class="tablinks" onclick="openCity(event, 'Manager')" id="defaultOpen">Manager</button>
-					  <button class="tablinks" onclick="openCity(event, 'Department')">Department</button>
-					  <button class="tablinks" onclick="openCity(event, 'Office')">Office</button>
-					  <button class="tablinks" onclick="openCity(event, 'Employed_since')" id="defaultOpen">Employed since</button>
-					  <button class="tablinks" onclick="openCity(event, 'dob')">Date of Birth</button>
-					  <button class="tablinks" onclick="openCity(event, 'Gender')">Gender</button>
-					  <button class="tablinks" onclick="openCity(event, 'Salary')">Salary</button>
+					  <button class="tablinks" onclick="openCity(event, 'Manager')" id="defaultOpen"><i class="fa fa-user">&nbsp;&nbsp;Manager</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'Department')"><i class="fa fa-file-text-o">&nbsp;&nbsp;Department</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'Office')"><i class="fa fa-building-o">&nbsp;&nbsp;Office</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'Employed_since')"><i class="fa fa-calendar">&nbsp;&nbsp;Employed since</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'dob')"><i class="fa fa-calendar-o">&nbsp;&nbsp;Date of Birth</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'Gender')"><i class="fa fa-child">&nbsp;&nbsp;Gender</i></button>
+					  <button class="tablinks" onclick="openCity(event, 'Salary')"><i class="fa fa-usd">&nbsp;&nbsp;Salary</i></button>
 					</div>
 
 					<div id="Manager" class="tabcontent">
