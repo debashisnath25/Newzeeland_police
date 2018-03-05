@@ -50,7 +50,7 @@ body {font-family: "Lato", sans-serif;}
 .tabcontent {
     float: left;
     padding: 0px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     width: 80%;
     border-left: none;
 	height:auto;
@@ -259,7 +259,7 @@ body {font-family: "Lato", sans-serif;}
 		  <div class="col-lg-12 col-sm-12 col-xs-12">
 			<div class="panel panel-default">
 			  <!-- /.panel-heading -->
-				<div class="panel-body">
+				<div class="panel-body" style="border: 1px solid #ccc;">
 					<div class="tab">
 					  <button class="tablinks" onclick="openCity(event, 'Manager')" id="defaultOpen">Manager</button>
 					  <button class="tablinks" onclick="openCity(event, 'Department')">Department</button>
